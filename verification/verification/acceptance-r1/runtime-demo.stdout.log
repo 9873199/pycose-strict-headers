@@ -1,0 +1,6 @@
+Received protected bytes: a204416b18013807
+Preserved original bytes: True
+Signature valid: True
+Detached payload and external AAD valid: True
+Duplicate protected label: CoseMalformedMessage: Duplicate header label(s) [1] in the protected bucket
+Trailing CBOR: CoseMalformedMessage: Trailing data after the COSE_Sign1 message

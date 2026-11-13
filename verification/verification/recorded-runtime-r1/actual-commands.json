@@ -1,0 +1,64 @@
+[
+  {
+    "id": "message-demo",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+      "-B",
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\cose-demo.py"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 1.6
+  },
+  {
+    "id": "critical-check",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+      "-B",
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation-r2.py"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 20.56
+  },
+  {
+    "id": "critical-tests",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "--no-header",
+      "-o",
+      "addopts=",
+      "-p",
+      "no:cacheprovider",
+      "--tb=line",
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\test_cose_label_values.py",
+      "--basetemp",
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\recording\\r2\\tmp-critical"
+    ],
+    "exit_code": 1,
+    "finished_at_seconds": 40.22
+  },
+  {
+    "id": "package-tests",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "--no-header",
+      "-o",
+      "addopts=",
+      "-p",
+      "no:cacheprovider",
+      "--tb=short",
+      "tests/test_sign1_strict.py",
+      "--basetemp",
+      "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\recording\\r2\\tmp-package"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 59.11
+  }
+]

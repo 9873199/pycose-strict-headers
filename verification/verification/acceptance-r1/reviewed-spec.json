@@ -1,0 +1,90 @@
+{
+  "uid": 1743,
+  "run_id": "uf-20261112-new15-cose-retry-2",
+  "reviewed": true,
+  "reviewer": "Codex primary reviewer",
+  "frozen_trace_sha256": "49aa191dfe15769aa5e090e60d66941532531d02d49c41fca5e1b87df7a325e6",
+  "revision": "acceptance-r1",
+  "product_modules": [
+    "pycose",
+    "pycose.messages.sign1message"
+  ],
+  "support_files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\cose-independent-tests.py",
+      "path": "test_cose_contract.py",
+      "sha256": "1f0d5d9e52f33114e43be216f6ee3683c9a1d0a886d4e26aa28750ea0d64bfd4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\cose-acceptance-adapter-r1.py",
+      "path": "acceptance_adapter.py",
+      "sha256": "ef66992b0432f2e532e41b39f442509de281d3e9d164b69cedb0169572279b94"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\cose-label-contract-r1.py",
+      "path": "test_cose_label_values.py",
+      "sha256": "5f80de190e60a24e93ddae44a96a3f8886eee85fcad643fb1f44ccf7b2703c06"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\cose-demo-r1.py",
+      "path": "cose-demo.py",
+      "sha256": "c11e4fede07e0535959025e2a962faaa56cebb23fa5c813c4de404ce48d67641"
+    }
+  ],
+  "commands": [
+    {
+      "name": "strict-contract",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "-o",
+        "addopts=",
+        "-p",
+        "no:cacheprovider",
+        "--tb=short",
+        "{verification}/test_cose_contract.py",
+        "{verification}/test_cose_label_values.py",
+        "--basetemp",
+        "{verification}/tmp-strict"
+      ]
+    },
+    {
+      "name": "package-suite",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "-o",
+        "addopts=",
+        "-p",
+        "no:cacheprovider",
+        "--tb=short",
+        "tests",
+        "--basetemp",
+        "{verification}/tmp-package"
+      ],
+      "timeout": 300
+    },
+    {
+      "name": "runtime-demo",
+      "argv": [
+        "{python}",
+        "-B",
+        "{verification}/cose-demo.py"
+      ]
+    },
+    {
+      "name": "critical-observation",
+      "argv": [
+        "{python}",
+        "-B",
+        "{verification}/test_cose_label_values.py"
+      ]
+    }
+  ]
+}

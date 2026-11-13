@@ -1,0 +1,28 @@
+{
+  "time": "2026-11-13T14:28:55+08:00",
+  "uid": 1743,
+  "status": "PASS",
+  "single_native_trace": "D:\\hc\\userFeedback\\cache\\runs\\uf-20261112-new15-cose-retry-2\\frozen\\trajectory-original.jsonl",
+  "trace_sha256": "49aa191dfe15769aa5e090e60d66941532531d02d49c41fca5e1b87df7a325e6",
+  "session_id": "fc693682-6ec4-4a33-bc35-853580a9607c",
+  "prompt_id": "a0f89290-a66b-44cd-b3cf-4ac8e1bcf293",
+  "exact_single_prompt": true,
+  "native_models": [
+    "auto_model/urm"
+  ],
+  "native_efforts": [
+    "high"
+  ],
+  "three_explicit_high_settings": true,
+  "native_success": true,
+  "frozen_files_unchanged": true,
+  "private_reasoning_excluded": true,
+  "event_counts": {
+    "queue-operation": 2,
+    "user": 26,
+    "attachment": 26,
+    "atis-latch": 10,
+    "assistant": 45,
+    "last-prompt": 10
+  }
+}

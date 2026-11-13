@@ -1,0 +1,2 @@
+{"case": "missing numeric critical label", "received_header_repr": "{1: -8, 2: [4], 'KID': b'k'}", "caller_understands": [4], "strict_decode": "ACCEPTED", "signature_valid": true, "original_protected_bytes_preserved": true}
+{"case": "text critical label not declared understood", "received_header_repr": "{1: -8, 2: ['KID'], 'KID': b'k'}", "caller_understands": [4], "strict_decode": "ACCEPTED", "signature_valid": true, "original_protected_bytes_preserved": true}

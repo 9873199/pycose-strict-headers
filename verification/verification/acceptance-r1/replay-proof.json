@@ -1,0 +1,37 @@
+{
+  "time": "2026-11-13T16:08:20+08:00",
+  "uid": 1743,
+  "run_id": "uf-20261112-new15-cose-retry-2",
+  "actual": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+    "modules": {
+      "pycose": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\replay-source\\pycose\\__init__.py",
+      "pycose.messages.sign1message": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\replay-source\\pycose\\messages\\sign1message.py"
+    }
+  },
+  "replay_source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\replay-source",
+  "frozen_hashes_unchanged": true,
+  "replay_source_hashes_unchanged": true,
+  "dependency_environment": "Reused the task dependency environment; exact pip freeze retained",
+  "commands": [
+    {
+      "name": "strict-contract",
+      "exit_code": 1
+    },
+    {
+      "name": "package-suite",
+      "exit_code": 0
+    },
+    {
+      "name": "runtime-demo",
+      "exit_code": 0
+    },
+    {
+      "name": "critical-observation",
+      "exit_code": 0
+    }
+  ],
+  "score": null,
+  "semantic_review": "PENDING"
+}

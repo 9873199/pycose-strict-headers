@@ -1,0 +1,233 @@
+{
+  "created": "2026-11-13T16:18:21+08:00",
+  "reviewed": true,
+  "reviewer": "Codex primary agent, AI-assisted",
+  "uid": 1743,
+  "frozen_commit": "b8ecb2566434e76b4d47d8184e58abe5ce532414",
+  "native_trajectory_sha256": "49aa191dfe15769aa5e090e60d66941532531d02d49c41fca5e1b87df7a325e6",
+  "files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\freeze.json",
+      "path": "freeze.json",
+      "sha256": "9c4b085ac9f8ff5fe1ffadd2954ab84bc1065419edbbf0565e1a19f825240f29"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\freeze-audit.json",
+      "path": "freeze-audit.json",
+      "sha256": "3f94f572610ec7ecc6af74f243daf43e83c1da9a56cc67cc4ae68d347d36c7ce"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\environment-reviewed.json",
+      "path": "environment-reviewed.json",
+      "sha256": "58807f139ecf9ee622fd65c064145c24902bdad46952d6b49e301684c8074a43"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\evidence-map.json",
+      "path": "evidence-map.json",
+      "sha256": "ce9e429f1b62140b25f0058b523ae41f5b7539d1101d5f3f693d53be589ef5e3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\model-final-answer.txt",
+      "path": "model-final-answer.txt",
+      "sha256": "1c84ca40673baf7f38c2012fa0a70c2853351e41dd683cb87df3a30bb14510ec"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\test-results.json",
+      "path": "test-results.json",
+      "sha256": "5ae086934b09c5a8969634e913cf81b6d541ac5c5db99af8be6caa3b98b151d3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\evaluation-qc.json",
+      "path": "evaluation-qc.json",
+      "sha256": "0abdf0c998bf5529f5a7a2cdb3fc1b6ea6eb9d76062f33bd0708da3c0c5b21ca"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\acceptance_adapter.py",
+      "path": "verification/acceptance-r1/acceptance_adapter.py",
+      "sha256": "ef66992b0432f2e532e41b39f442509de281d3e9d164b69cedb0169572279b94"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\actual-import.json",
+      "path": "verification/acceptance-r1/actual-import.json",
+      "sha256": "b590b9ae5acae193df38db68b9e0c7730115d79800f319bb43a0e0ccdec2d7cd"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\actual-import.stderr.log",
+      "path": "verification/acceptance-r1/actual-import.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\actual-import.stdout.log",
+      "path": "verification/acceptance-r1/actual-import.stdout.log",
+      "sha256": "2d79b9da6848345926ae367c495fdc242ee9c8b060ce5d04cf7425d281bac3e0"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\cose-demo.py",
+      "path": "verification/acceptance-r1/cose-demo.py",
+      "sha256": "c11e4fede07e0535959025e2a962faaa56cebb23fa5c813c4de404ce48d67641"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation-r2.json",
+      "path": "verification/acceptance-r1/critical-observation-r2.json",
+      "sha256": "d50c75d64e5cca1b4635de6f671bdfe5f7beaa5d8dfb0e023db1b340a33c00e1"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation-r2.py",
+      "path": "verification/acceptance-r1/critical-observation-r2.py",
+      "sha256": "08bf5a5d06a139f8c4569030dbdd4aa9d0c9b8b187ececd4848aeac8bb46c114"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation-r2.stderr.log",
+      "path": "verification/acceptance-r1/critical-observation-r2.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation-r2.stdout.log",
+      "path": "verification/acceptance-r1/critical-observation-r2.stdout.log",
+      "sha256": "fda32502588c81dc29456902af4e2e293b3b1cceaeb2ab5b9f1c3da2b094b138"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation.json",
+      "path": "verification/acceptance-r1/critical-observation.json",
+      "sha256": "5dfc630c52b5a028ae44d3354d2ae36717d3f94a6727cfe1a429e0315dbef37d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation.stderr.log",
+      "path": "verification/acceptance-r1/critical-observation.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation.stdout.log",
+      "path": "verification/acceptance-r1/critical-observation.stdout.log",
+      "sha256": "8d0e159f544463b0b688a0c24b43ecdca8d736f6b6f87b5ea22621cdb69f9cf2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\dependency-lock.json",
+      "path": "verification/acceptance-r1/dependency-lock.json",
+      "sha256": "45e1afd69b171e814b6fccb91dfda8365ccbb48f57bede34d4e178da62d94630"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\dependency-lock.stderr.log",
+      "path": "verification/acceptance-r1/dependency-lock.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\dependency-lock.stdout.log",
+      "path": "verification/acceptance-r1/dependency-lock.stdout.log",
+      "sha256": "b1002553cf0d3f82fa44bc5ed32e842fc29c32aafdf902b3fe96a5188039dbe5"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\observation-helper-review.json",
+      "path": "verification/acceptance-r1/observation-helper-review.json",
+      "sha256": "f8be341f19293a5fb412f47bb410b1243cadcbc2ad40caddd4d84556b0afcbc9"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\package-suite.json",
+      "path": "verification/acceptance-r1/package-suite.json",
+      "sha256": "bd313987c5dfa3dec4a7ec326e06f8ce1dc29f08a4e8e7eed4a562df5b3520cb"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\package-suite.stderr.log",
+      "path": "verification/acceptance-r1/package-suite.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\package-suite.stdout.log",
+      "path": "verification/acceptance-r1/package-suite.stdout.log",
+      "sha256": "46bef82b1c768c22b906818197aed5473583d1d53078f6c9f15bfc6dadf3d120"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\replay-proof.json",
+      "path": "verification/acceptance-r1/replay-proof.json",
+      "sha256": "5f232fd1968d763e35ee716054fc80fdfbb77070dae2945d22612dc9d0e96c51"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\reproduction-notes.md",
+      "path": "verification/acceptance-r1/reproduction-notes.md",
+      "sha256": "0ddcff9b8baa85ce7d02900b02425f74bcc1113eed857bd32633173c6955e82b"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\reviewed-spec.json",
+      "path": "verification/acceptance-r1/reviewed-spec.json",
+      "sha256": "e56f2754e88b5853c71191bd7f15c64b8f424f37ad37d1060be3b9cfbd643d5c"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\runtime-demo.json",
+      "path": "verification/acceptance-r1/runtime-demo.json",
+      "sha256": "8c680fc561d82db189fd4ca0bc5c1122e2137be075b82d014e4ada2d4fd00add"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\runtime-demo.stderr.log",
+      "path": "verification/acceptance-r1/runtime-demo.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\runtime-demo.stdout.log",
+      "path": "verification/acceptance-r1/runtime-demo.stdout.log",
+      "sha256": "c105c731f1b22b028535f08ce2b222b96c7b9f64ce9acbbc9b3cb4c9691097d3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\runtime-requirements.txt",
+      "path": "verification/acceptance-r1/runtime-requirements.txt",
+      "sha256": "f806d9548eba4c7b08c8e0188a84f1ae7cc4e3b4298d32727802f1e51fb139c5"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\strict-contract.json",
+      "path": "verification/acceptance-r1/strict-contract.json",
+      "sha256": "0ec5b7403c8665484a95ca6a381e1e11f7d2f767b29ebd3027fe6b38c6190bbc"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\strict-contract.stderr.log",
+      "path": "verification/acceptance-r1/strict-contract.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\strict-contract.stdout.log",
+      "path": "verification/acceptance-r1/strict-contract.stdout.log",
+      "sha256": "1f67e32ed50d4c0078c2f9d30cc13ed5f5c7c37e7bd0b1271af9f546ac918b19"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\test_cose_contract.py",
+      "path": "verification/acceptance-r1/test_cose_contract.py",
+      "sha256": "1f0d5d9e52f33114e43be216f6ee3683c9a1d0a886d4e26aa28750ea0d64bfd4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\test_cose_label_values.py",
+      "path": "verification/acceptance-r1/test_cose_label_values.py",
+      "sha256": "5f80de190e60a24e93ddae44a96a3f8886eee85fcad643fb1f44ccf7b2703c06"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\recorded-runtime-r1\\actual-commands.json",
+      "path": "verification/recorded-runtime-r1/actual-commands.json",
+      "sha256": "882232b97c0506dd9b8beaae6535b369180be10517da070a9956f6e71c764b3f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\recorded-runtime-r1\\critical-check-output.log",
+      "path": "verification/recorded-runtime-r1/critical-check-output.log",
+      "sha256": "fda32502588c81dc29456902af4e2e293b3b1cceaeb2ab5b9f1c3da2b094b138"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\recorded-runtime-r1\\critical-tests-output.log",
+      "path": "verification/recorded-runtime-r1/critical-tests-output.log",
+      "sha256": "6cfee8abb39e00c00c2760c5144d370c1a7a95afa909c61e1bd0ee9f2dcf5438"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\recorded-runtime-r1\\message-demo-output.log",
+      "path": "verification/recorded-runtime-r1/message-demo-output.log",
+      "sha256": "c105c731f1b22b028535f08ce2b222b96c7b9f64ce9acbbc9b3cb4c9691097d3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\recorded-runtime-r1\\package-tests-output.log",
+      "path": "verification/recorded-runtime-r1/package-tests-output.log",
+      "sha256": "6b5266568e015b4c664a925a848d3164be3c62e9835a8c4d745b2fb8d42b7fed"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\recorded-runtime-r1\\spec.json",
+      "path": "verification/recorded-runtime-r1/spec.json",
+      "sha256": "b58d222ddc4af88ea1eba222c2267263abecee4de8783e3d7e753d55fa91bf4a"
+    }
+  ],
+  "reproduction_readme": "Windows Python 3.14.3; no container or external runtime services. Create a venv, install verification/acceptance-r1/runtime-requirements.txt, and pip install --no-deps -e . from the exact frozen product commit. Do not install the old baseline editable URL from raw pip freeze. Put the frozen root and verification/acceptance-r1 on PYTHONPATH; confirm pycose.__file__ is the frozen product path.\n\nRun python -B -m pytest -q -o addopts= -p no:cacheprovider --tb=short verification/acceptance-r1/test_cose_contract.py verification/acceptance-r1/test_cose_label_values.py. Expected frozen behavior: 26 pass and 3 fail. The three failures have one cause: _label_identity translates text KID and integer 4 through the same registered-attribute alias. A Critical integer 4 can be accepted without actual integer label 4, and understanding integer 4 can wrongly satisfy a different text critical label. Conversely valid distinct noncritical labels are rejected as duplicates. The inputs are hand-spliced raw CBOR and signed by freshly generated Ed25519 keys. This is a header-contract bypass, not a forged-signature demonstration.\n\npython -B verification/acceptance-r1/critical-observation-r2.py prints the two actual accepted messages with signature_valid=true; cose-demo.py shows noncanonical-byte verification, detached payload and external AAD, duplicate rejection and trailing-data rejection. The older critical-observation.stdout.log is invalid helper output: json.dumps failed on bytes after successful verification and an overly broad catch mislabeled the accepted decode as REJECTED. observation-helper-review.json explains the retained error; only the corrected r2 observation is used in Feedback/scoring.\n\npython -B -m pytest -q -o addopts= -p no:cacheprovider tests reproduces 1659 pass and 3 existing skips. The 25 strict model tests are part of that suite, not additive. Original decode remains compatible. Exact commands, logs, import locations and before/after source hashes are retained. The separately authored console demonstration is a verification helper, not a model-authored interface. The first recording attempt failed to find its window and generated no video; the delivered second attempt continuously captures all successes and the three contract failures.",
+  "no_model_source_edits": true,
+  "native_trace_included": false
+}

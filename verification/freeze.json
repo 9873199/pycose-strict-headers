@@ -1,0 +1,723 @@
+{
+  "time": "2026-11-13T14:24:46+08:00",
+  "task_id": "uf-20261112-new15-cose",
+  "run_id": "uf-20261112-new15-cose-retry-2",
+  "uid": 1743,
+  "workspace": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\sources\\cose",
+  "artifact_directory": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\frozen-artifact",
+  "git_head_after_model": "1458ddf14efffbd00bc4052d9026b63da725098e",
+  "initial_sha": "1458ddf14efffbd00bc4052d9026b63da725098e",
+  "trajectory_file": "D:\\hc\\userFeedback\\cache\\runs\\uf-20261112-new15-cose-retry-2\\frozen\\trajectory-original.jsonl",
+  "trajectory_sha256": "49aa191dfe15769aa5e090e60d66941532531d02d49c41fca5e1b87df7a325e6",
+  "session_ids": [
+    "fc693682-6ec4-4a33-bc35-853580a9607c"
+  ],
+  "prompt_ids": [
+    "a0f89290-a66b-44cd-b3cf-4ac8e1bcf293"
+  ],
+  "user_turns": 1,
+  "prompt_sha256": "c7096755deec81fd948b27d136db87bd9dd8d0c935df2b055034271b7ddcf067",
+  "frozen_files": [
+    {
+      "path": ".coveragerc",
+      "sha256": "45cfa10ae7b76e6643eeb5955cf323fd8e326dd71124230327d4aebdd3801680",
+      "bytes": 58
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "sha256": "216c5b76e1578a62aff9d0ab5a2d57f1dc03c3fbdc29192d82d6b6f95575a83d",
+      "bytes": 3249
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "69cca45296b71c96c085dc5851d7fdb91151376acd299258d0a1bac801eeaa17",
+      "bytes": 117
+    },
+    {
+      "path": ".readthedocs.yaml",
+      "sha256": "a7a609e2c6c76eeec1c3a9f1322e64f3f2f57d86f5c464f9ddd95b0404b35414",
+      "bytes": 734
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "d0a940f1e14eeb6ef74e7cd0fa266180ea7cf13f89e56e71057afa9821cd8d00",
+      "bytes": 180
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "176b57023611eafe915ff5d40a0c2b8f47b24d604a316a5166decf191770bfc6",
+      "bytes": 1613
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "76e7d6533d71ad367cd1741c49f557d3ad4d7d0eac7c6fc769e4258a0b62cafa",
+      "bytes": 54
+    },
+    {
+      "path": "README.md",
+      "sha256": "37f5e43339142a49011ba1f97ee2bd306970001f5792e82566b8517f5a572042",
+      "bytes": 4505
+    },
+    {
+      "path": "dev-requirements.txt",
+      "sha256": "af4a709c7ce7dd3870ab3a20829e5906d05425552578c70d3ecde50a0f0f4f1a",
+      "bytes": 199
+    },
+    {
+      "path": "docs/CONTRIBUTING.rst",
+      "sha256": "60e9b674b3bf8733e5ebc7d6c6de2e8a67f352aaf290c40a0a12ab1a3524b682",
+      "bytes": 232
+    },
+    {
+      "path": "docs/LICENSE.rst",
+      "sha256": "1f289ca55cddd22d8ae7c4263e002e71da9047a1231ca36c70949e45638f6cc7",
+      "bytes": 41
+    },
+    {
+      "path": "docs/Makefile",
+      "sha256": "8b6587b859607f200f116e2cb043fc358e1c3a26c326b563bf348453cfc68307",
+      "bytes": 634
+    },
+    {
+      "path": "docs/conf.py",
+      "sha256": "8865b3dc7b99d2eca5aeee7d7bc1b353d58eab77796e2e8f10f9b0601a0a28db",
+      "bytes": 2480
+    },
+    {
+      "path": "docs/examples.rst",
+      "sha256": "d8a74556b0d7f090dd5477614ba4f6c62cd432b9a026d6ec7ac44deb5ffe6299",
+      "bytes": 13968
+    },
+    {
+      "path": "docs/glossary.rst",
+      "sha256": "f75e036c5ad7063e859fcac5e89d2be45823d008c7e33678cfbc678bfdfde0eb",
+      "bytes": 802
+    },
+    {
+      "path": "docs/index.rst",
+      "sha256": "cfa25ed74670361686b06f012cafe5c3eee6bb0fd106ec6e89759fe0a681508b",
+      "bytes": 3056
+    },
+    {
+      "path": "docs/installation.rst",
+      "sha256": "8278849c18e40415bc8815cdead6b2b16c259934422b9914895b08dcb93113c4",
+      "bytes": 1562
+    },
+    {
+      "path": "docs/make.bat",
+      "sha256": "b593cd1da19314a43db9a0854f6f92f2c59217571502da3321f9498c02fa16c8",
+      "bytes": 795
+    },
+    {
+      "path": "docs/pycose/algorithms.rst",
+      "sha256": "c746bc06ff744bb4e268f7dc36853046e0a0db68729196f9dfad01e3e7e4711d",
+      "bytes": 1573
+    },
+    {
+      "path": "docs/pycose/keys/cosekey.rst",
+      "sha256": "904bfa9b267c8e4c7f0d4f78977baee70f1eacdc165f7d002978e8b519d20357",
+      "bytes": 2369
+    },
+    {
+      "path": "docs/pycose/keys/curves.rst",
+      "sha256": "702436f5f4b6336afcd1bc18b7050af32da9d15ffc3682f8bc0c8da5b9e429e8",
+      "bytes": 954
+    },
+    {
+      "path": "docs/pycose/keys/ec2.rst",
+      "sha256": "4f46a365ff64175b28132b0fd89ba25cec856d360c899ef9054bb9b4a8997582",
+      "bytes": 7132
+    },
+    {
+      "path": "docs/pycose/keys/index.rst",
+      "sha256": "a899fe61cddaedd952cbbf26651e33e65506ed3468bdbc0b0d671961348b9791",
+      "bytes": 150
+    },
+    {
+      "path": "docs/pycose/keys/keyparam.rst",
+      "sha256": "721d5e2ec33ad6a3225d3c9c78d1bb889eaae71824617522fe06706d9d592205",
+      "bytes": 1745
+    },
+    {
+      "path": "docs/pycose/keys/keytype.rst",
+      "sha256": "697b8c35805ebee512555de91430bd1c457358ff56d8b96267d5a9f7b6749897",
+      "bytes": 394
+    },
+    {
+      "path": "docs/pycose/keys/okp.rst",
+      "sha256": "e521f983a1cce0a90d09d39230bccdc6e86e5e4c26e41f01eef0c91a1f005252",
+      "bytes": 6647
+    },
+    {
+      "path": "docs/pycose/keys/symmetric.rst",
+      "sha256": "63cfb9367eb785671087aed2d5f41c3a1e9c596e46b4b17cecc17d23d2f46c2a",
+      "bytes": 5621
+    },
+    {
+      "path": "docs/pycose/messages/enc0message.rst",
+      "sha256": "6ee39b465f9efe2206acb9798e1c5bee17da25012e7a1e2b6e5854ff0aea78df",
+      "bytes": 649
+    },
+    {
+      "path": "docs/pycose/messages/encmessage.rst",
+      "sha256": "f0134434972e0408bbe3e86ff179628362bb9d23caeb30602741278942243103",
+      "bytes": 728
+    },
+    {
+      "path": "docs/pycose/messages/index.rst",
+      "sha256": "3811e1a11dbc4dedb2903c0bc4321a140d319126badf9570bf805fab4f428ced",
+      "bytes": 172
+    },
+    {
+      "path": "docs/pycose/messages/mac0message.rst",
+      "sha256": "dc56126d3c495433f4e2f411ae8a253ab6633b209d1a7ab3ae1b35a2d6358e42",
+      "bytes": 595
+    },
+    {
+      "path": "docs/pycose/messages/macmessage.rst",
+      "sha256": "62e9f6449a39379fd70c723a1a700e87c6059711c8846c70ab4ec6eebfc330dc",
+      "bytes": 502
+    },
+    {
+      "path": "docs/pycose/messages/sign1message.rst",
+      "sha256": "d268ce58ba5092edf686fb6ade083780d913dabee16e760cc3baffba7e7480e5",
+      "bytes": 716
+    },
+    {
+      "path": "docs/pycose/messages/signmessage.rst",
+      "sha256": "4da90d739c29c69ad83506462d78a245f88be46197328ec8722da9b417ea4cf0",
+      "bytes": 818
+    },
+    {
+      "path": "images/basic_structure.png",
+      "sha256": "4dbf9eb02ba90fcc46c56895dcc1712dd3986e8c5ba44fd2cb510710408f883f",
+      "bytes": 36465
+    },
+    {
+      "path": "images/basic_structure.svg",
+      "sha256": "5dab39ea70dc9361aca4cc27e481fdec303e7244bab8bbb5972bdaddbf400a3b",
+      "bytes": 9288
+    },
+    {
+      "path": "images/encrypt.png",
+      "sha256": "bef86efbd98cb18ee7ee09ea84588bbf943bf7ad4708577180efb170af0e601c",
+      "bytes": 86876
+    },
+    {
+      "path": "images/encrypt.svg",
+      "sha256": "c2a6270e243c7e16b34876f330063bee31a74ad6862d0200149141c0c6df07e8",
+      "bytes": 18155
+    },
+    {
+      "path": "images/encrypt0.png",
+      "sha256": "5f625c47a74784acd5730c45fa45f3460f7e5a5ddff9658f5fd72aaaeffb3ec9",
+      "bytes": 53479
+    },
+    {
+      "path": "images/encrypt0.svg",
+      "sha256": "932730f22079c5532145400e71024268c6ef3b2e5ea8cc7853947bae27bd24d4",
+      "bytes": 11638
+    },
+    {
+      "path": "images/sign1.png",
+      "sha256": "a125aeb6d5c4a0318d6eedbc2ce7c54f6fc6dde6270f8a210b3fc0072a1b95f7",
+      "bytes": 59380
+    },
+    {
+      "path": "images/sign1.svg",
+      "sha256": "b29ebc63ba4bbc01e19524c473cb771bd67ceaa0a5aa26df9bef97cd1a8aba26",
+      "bytes": 14253
+    },
+    {
+      "path": "pycose/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "pycose/algorithms.py",
+      "sha256": "191677af862148501dd0c8b617a5bdb27e95a206bf56c2fbf49aab976cc33ae2",
+      "bytes": 33169
+    },
+    {
+      "path": "pycose/exceptions.py",
+      "sha256": "2aad4bc451dc0f1e56fa39a9d108f7d8e6c349567d190e7800145bf3862e70f1",
+      "bytes": 330
+    },
+    {
+      "path": "pycose/extensions/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "pycose/extensions/x509.py",
+      "sha256": "4798f555fb332db7509fded325d7b32f110cee461a3834d51afc30ab397b307f",
+      "bytes": 2486
+    },
+    {
+      "path": "pycose/headers.py",
+      "sha256": "390dcc986bc55fe655668095b6d7a9141b14380cde392d5919d25c9f21688cb8",
+      "bytes": 4671
+    },
+    {
+      "path": "pycose/keys/__init__.py",
+      "sha256": "545398c9aa09398cfe4a8a48529352601223b678b04d7ed54174f6a106d2c218",
+      "bytes": 202
+    },
+    {
+      "path": "pycose/keys/cosekey.py",
+      "sha256": "3d271b5b5755200eb16eb44ac729c069e9a8b3106c294ae5d172ab6f6a0b6271",
+      "bytes": 11011
+    },
+    {
+      "path": "pycose/keys/curves.py",
+      "sha256": "c70880cd2109de2cab25dd47e54053eb1f66d9c823d65fb4b459cb802bb5a022",
+      "bytes": 5257
+    },
+    {
+      "path": "pycose/keys/ec2.py",
+      "sha256": "bc82ab72d9d25ec8627966d55faf8062cad30579ecbd7eaf5b4295e04180faa2",
+      "bytes": 12011
+    },
+    {
+      "path": "pycose/keys/keyops.py",
+      "sha256": "438e95468672dcc3948d3c0de8f3ef042ff8de52ec6f368ed424bf3b0252d577",
+      "bytes": 1375
+    },
+    {
+      "path": "pycose/keys/keyparam.py",
+      "sha256": "345214f18941aa0b942b12044f229fbcbb44124dd9d1aa7c2c4ec0182bc7f678",
+      "bytes": 5551
+    },
+    {
+      "path": "pycose/keys/keytype.py",
+      "sha256": "bdfddbcc1e30d5763e2651d27dd850b560c24859c4e9c06d3fbb3297fe67372e",
+      "bytes": 814
+    },
+    {
+      "path": "pycose/keys/okp.py",
+      "sha256": "92c5286ac2eccb35cf998683b71e717ba7a8416e9300bd005d0b1c30782cabd3",
+      "bytes": 10072
+    },
+    {
+      "path": "pycose/keys/rsa.py",
+      "sha256": "1172ca3f9eef6e7f50523a1d4b43bb33328ff86d6851aaa3c96d91d12e40a9ac",
+      "bytes": 11297
+    },
+    {
+      "path": "pycose/keys/symmetric.py",
+      "sha256": "bb68bceb409337ab89963821828c8c42c222ee428f7ea395e142936c54b9798c",
+      "bytes": 5278
+    },
+    {
+      "path": "pycose/messages/__init__.py",
+      "sha256": "b03cf6e28622762705e5e93f18759b5ad4ee1fe219c7364c3c3ff66adde22e26",
+      "bytes": 348
+    },
+    {
+      "path": "pycose/messages/context.py",
+      "sha256": "6e355f325cfeecb41a468f7c15d5090a9499566d6a4f63eb6f1432482312e51d",
+      "bytes": 2359
+    },
+    {
+      "path": "pycose/messages/cosebase.py",
+      "sha256": "f84e9dce346788ce4d6166d7fde5acce44300dcaa26b5316287717b2c4c6d946",
+      "bytes": 6938
+    },
+    {
+      "path": "pycose/messages/cosemessage.py",
+      "sha256": "4d7e6035150811361311772a3d607d259c0dfab96ca66ee2d5cc6a122c6eecdf",
+      "bytes": 5489
+    },
+    {
+      "path": "pycose/messages/enc0message.py",
+      "sha256": "85691b496ebf4541c8713f60f10214504f0d57aac42e37cba1534b1f7c1f1306",
+      "bytes": 2317
+    },
+    {
+      "path": "pycose/messages/enccommon.py",
+      "sha256": "1a2cf048dabba2f8a19e7865f01826fe7987668f604e34306cb8d17288a6166c",
+      "bytes": 2864
+    },
+    {
+      "path": "pycose/messages/encmessage.py",
+      "sha256": "ae5bb1382fca9008c45f52cde6d3ce248c6e96c185e7db266dde627fc7547f3b",
+      "bytes": 5418
+    },
+    {
+      "path": "pycose/messages/mac0message.py",
+      "sha256": "fe46d5f16bbd3cacd6a40765fb129a823e4cdb09074fa5ef36a5951d533ddaa2",
+      "bytes": 1696
+    },
+    {
+      "path": "pycose/messages/maccommon.py",
+      "sha256": "768673bc7f1ad740a838ef22e63daa9df3b50b60d53ec82cb00b035c1ac5252b",
+      "bytes": 2270
+    },
+    {
+      "path": "pycose/messages/macmessage.py",
+      "sha256": "429a0bbf7a98d0ec8547179466cb1df48277b72126f975289c29c65da7e523b2",
+      "bytes": 3680
+    },
+    {
+      "path": "pycose/messages/recipient.py",
+      "sha256": "31156c2e59235d5a83471e64662a90b3fdb2017da5a9d67495521a6645c4e612",
+      "bytes": 22321
+    },
+    {
+      "path": "pycose/messages/sign1message.py",
+      "sha256": "054f8272948b6af4b63537f9ab69543c14201da1a89547a60dad876a597f2a25",
+      "bytes": 14039
+    },
+    {
+      "path": "pycose/messages/signcommon.py",
+      "sha256": "03a20d6999187b8d564baed3afb9cfd1b826ee4f9149d6b3ecb888c245d7f1af",
+      "bytes": 2058
+    },
+    {
+      "path": "pycose/messages/signer.py",
+      "sha256": "cf4440d7ee522d4a8a6fc055431510bdefdd3407e0f92f05552fb2ae4673c9be",
+      "bytes": 2558
+    },
+    {
+      "path": "pycose/messages/signmessage.py",
+      "sha256": "c7e4c1fbfb2cd7dadb800f5087af1e05cd2de4012d46551017d00ea470ed53cf",
+      "bytes": 2926
+    },
+    {
+      "path": "pycose/py.typed",
+      "sha256": "ff0f71eee44b7c3a4fc43b989e0236553f04f6d96c6044bf6d480ec5a9a360bf",
+      "bytes": 64
+    },
+    {
+      "path": "pycose/utils.py",
+      "sha256": "6ac2c9e02e181bdc44f7026c34dbfb90adb404c6709c7b9ab31201065d190e04",
+      "bytes": 2687
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "0e35bad6705325bcfb3e4b399f2f412249adb0b5054cac7bbf79439c4388f69f",
+      "bytes": 88
+    },
+    {
+      "path": "pytest.ini",
+      "sha256": "a2c142f0e8d68a08a6353831f61641c61073a30e5231cc3d62d187526e8a16bd",
+      "bytes": 48
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a4aae9635f097044f856e40e1454cac391e47dcaf5a79412c0adaf1704e349ea",
+      "bytes": 45
+    },
+    {
+      "path": "setup.cfg",
+      "sha256": "64c6402d45f560991c8384a226630958dc65f79ea42778985df9e3b628b94897",
+      "bytes": 1399
+    },
+    {
+      "path": "setup.py",
+      "sha256": "4e349cc20a81ab315f25a3c3ea771ef9c4cd60167894852ab059a31c12858718",
+      "bytes": 69
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "2ccc6f76714dc0d3c8aefd1e3ef16d4826320db198ed7ac5c4a43a2b402033b8",
+      "bytes": 11899
+    },
+    {
+      "path": "tests/test_attributes.py",
+      "sha256": "6dea3d74aa6902b5f3b88e97c19d12d70181c9a2cbebbe3114efa66fc72bfcaa",
+      "bytes": 10332
+    },
+    {
+      "path": "tests/test_cosemessage.py",
+      "sha256": "468055e71fa66335de771821b4f91c5d47add5137b78b69e27989df87c12dcbb",
+      "bytes": 725
+    },
+    {
+      "path": "tests/test_doctests.py",
+      "sha256": "04a57f097b4bb519e60dbdb17be505ba7b13f57c318695fae7fd40a477bba415",
+      "bytes": 5857
+    },
+    {
+      "path": "tests/test_ec2_keys.py",
+      "sha256": "fa7abd21736cc2b53b5576092473bb2b0cbd3c60a9fbb852b03481dc9080c7f0",
+      "bytes": 11429
+    },
+    {
+      "path": "tests/test_enc0message.py",
+      "sha256": "2cb1544acdccdef1b6c5a270fa90526d1fc1638f4d3f756e1b91bce369424d36",
+      "bytes": 1996
+    },
+    {
+      "path": "tests/test_encmessage.py",
+      "sha256": "63dc8c6de303a1743b7196851f21e7011c5cec8e5b9701f39b0ae2323b80645c",
+      "bytes": 8646
+    },
+    {
+      "path": "tests/test_mac0message.py",
+      "sha256": "2c536ce07ef1732386c36a82dc6a39696e0f5059be7b5aa88448b521cc2fe495",
+      "bytes": 1483
+    },
+    {
+      "path": "tests/test_macmessage.py",
+      "sha256": "7d80701c006bae6efe9b3217ebbc5ab662b798c53fbafb280ab045550029e627",
+      "bytes": 1657
+    },
+    {
+      "path": "tests/test_okp_keys.py",
+      "sha256": "0089968a152102b4f7e54a7572732c8893a4a249915b0e8b765a81a4adbc9107",
+      "bytes": 8070
+    },
+    {
+      "path": "tests/test_rsa_keys.py",
+      "sha256": "82c809c4df291b8489b517ddc911a77e284e98d87c9893f991d454a44068b61b",
+      "bytes": 2203
+    },
+    {
+      "path": "tests/test_sign1_strict.py",
+      "sha256": "bfb0b3b069f3ebb56986ccdf86aab58a0ddd67ace2c7fee7967f32e22e5b4c3d",
+      "bytes": 13315
+    },
+    {
+      "path": "tests/test_sign1message.py",
+      "sha256": "b39ce94b44119c4eb05a56367627f56885346f6586da78b48870f66b5c9e46e1",
+      "bytes": 6124
+    },
+    {
+      "path": "tests/test_signmessage.py",
+      "sha256": "50520bab31c5a73eeeea874fc922a0e76874b13bbd34aa04e114d5b28d1683e5",
+      "bytes": 3420
+    },
+    {
+      "path": "tests/test_symmetric_keys.py",
+      "sha256": "dd92b63d2ac1fc0fbaff0a3ad02ab64aa72b6f3bca41b1ee7aacb63aa90aff12",
+      "bytes": 5456
+    },
+    {
+      "path": "tests/test_x509.py",
+      "sha256": "a4e50516f93d6c3c8e7a8c22728ee9a4ea541f3f4adcd1258729e0346e4af04b",
+      "bytes": 798
+    },
+    {
+      "path": "tests/vectors/encrypt-direct-encryption/aes-ccm-01.json",
+      "sha256": "dcda0e36761f0188d80f11a05e9e9a03c2c6a117c80bc892127107eddda114de",
+      "bytes": 1312
+    },
+    {
+      "path": "tests/vectors/encrypt-direct-encryption/aes-ccm-02.json",
+      "sha256": "a70398bcfe5ad6a368cb00e10833d56a4c13eae43d10c3fc75ef7c0b311fb92c",
+      "bytes": 1409
+    },
+    {
+      "path": "tests/vectors/encrypt-direct-key-agreement/p256-hkdf-256-01.json",
+      "sha256": "be25a769c96c127a3805b3f4d1ce7874d0f51fca7d3c2029d1eb1430dc2bdcf6",
+      "bytes": 3009
+    },
+    {
+      "path": "tests/vectors/encrypt-direct-key-agreement/p256-hkdf-256-02.json",
+      "sha256": "9260eea55734dc0bc69bf86a3ab3c3853e01e3dbe4d1d05c42c0ca314ae507a2",
+      "bytes": 3043
+    },
+    {
+      "path": "tests/vectors/encrypt-direct-key-agreement/p256-hkdf-512-01.json",
+      "sha256": "fbe4ba8369462f1ca2839e5df5edc634cedc61eb43bed9009de4e8c038fc11e1",
+      "bytes": 3008
+    },
+    {
+      "path": "tests/vectors/encrypt-direct-key-agreement/p256-ss-hkdf-256-01.json",
+      "sha256": "9a29f5eb8e3045090c0ecbc09fd62d794777847fa20ad767d8f08dbc7fe685a8",
+      "bytes": 3512
+    },
+    {
+      "path": "tests/vectors/encrypt-direct-key-agreement/p521-ss-hkdf-256-01.json",
+      "sha256": "2b6c7fddca3f9f4ac80a2eeb9649f682fdf4c3a6fd94fe705c7b598d484edde5",
+      "bytes": 4396
+    },
+    {
+      "path": "tests/vectors/encrypt-key-agreement-key-wrap/p256-ss-wrap-128-01.json",
+      "sha256": "a761a83ff06c8e00db3943b5d4c106aea23adb29df043672d973734ebf86ae05",
+      "bytes": 3211
+    },
+    {
+      "path": "tests/vectors/encrypt-key-agreement-key-wrap/p256-ss-wrap-128-02.json",
+      "sha256": "530435e9258e372e616ae99a18e8f4bd389964a543d931e0ab09296c8c677f28",
+      "bytes": 3339
+    },
+    {
+      "path": "tests/vectors/encrypt-key-wrap/aes-wrap-128-04.json",
+      "sha256": "dd315065116b0604401977d4beee03f24eeb3752b0479a1dd81857311903a08f",
+      "bytes": 1580
+    },
+    {
+      "path": "tests/vectors/encrypt-key-wrap/aes-wrap-128-05.json",
+      "sha256": "979006096374c1a377aa342c90a8bb23bd0277872799ed69810062f69ff46da0",
+      "bytes": 1629
+    },
+    {
+      "path": "tests/vectors/encrypt-key-wrap/aes-wrap-192-04.json",
+      "sha256": "4b6d2e3b46a210cf3422be87691beac7b98eb6a9783323616dc89922a8b74aaf",
+      "bytes": 1581
+    },
+    {
+      "path": "tests/vectors/encrypt-key-wrap/ps-128gcm-01.json",
+      "sha256": "9d9e59175e5fe8de0ae7aa071b13d963e107dd3d178fd11d2acfdd98bc49ff2c",
+      "bytes": 5405
+    },
+    {
+      "path": "tests/vectors/encrypt-key-wrap/ps256-128gcm-01.json",
+      "sha256": "f8fa5717ea7382ebff31349cbdc1dac63e3cb5a951b587401e597baff5cebb20",
+      "bytes": 5409
+    },
+    {
+      "path": "tests/vectors/encrypt-key-wrap/ps512-256gcm-01.json",
+      "sha256": "ae97dfcba1057443f4475d0310b2b97c3f5897054298a823678a50a9e5a26439",
+      "bytes": 5473
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-01.json",
+      "sha256": "bbed99b5f8246f1052b95ecb56e8afd57d9dd4942bf6d2fda6207e3aca34855d",
+      "bytes": 936
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-02.json",
+      "sha256": "7bbcf830b54300aa8fc20add2b74991dc2d6890aff13d58c2955a55d9261a90e",
+      "bytes": 977
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-03.json",
+      "sha256": "5542509600c30531c10b1dec22e5b577499abb466bb54d313a3759291795b787",
+      "bytes": 889
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-04.json",
+      "sha256": "2f2f712fd9df4aaf313866da7040f1802ad4b6f5be085ad13cb49a0cc5dcbd03",
+      "bytes": 930
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-05.json",
+      "sha256": "624451e2205845fa08adc69e0a44fb61ef71334faa4d750313f9680caa1b085c",
+      "bytes": 966
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-06.json",
+      "sha256": "cda19bb00126cd2c5e127fcc3ac952e2c0d1953d0231746e47d5eaf9648e3ea8",
+      "bytes": 1007
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-07.json",
+      "sha256": "4663d24f89b1a8a7a3c6f22b053b988ecc5255d2a07dd390dbc55d1de56f896e",
+      "bytes": 918
+    },
+    {
+      "path": "tests/vectors/encrypt0/aes-ccm-enc-08.json",
+      "sha256": "412a6e1fb358869a5c9b5b1ef045bc9876b5dff552e71b2303e233ad891ad757",
+      "bytes": 959
+    },
+    {
+      "path": "tests/vectors/mac-direct-encryption/HMac-01.json",
+      "sha256": "6da4431456aec71c2188f040a4f2b4d837cc42fef5dda5ae5a15ec8929fb2886",
+      "bytes": 1369
+    },
+    {
+      "path": "tests/vectors/mac-direct-encryption/cbc-mac-01.json",
+      "sha256": "1b94c92ed781dea7da273095d08563d77f1a928ebb3afb79e148611a13425318",
+      "bytes": 1287
+    },
+    {
+      "path": "tests/vectors/mac-direct-encryption/cbc-mac-02.json",
+      "sha256": "b136f765c874f5e30d29c7771780691bfe3bc5f9150c974425422e1b451f1270",
+      "bytes": 1328
+    },
+    {
+      "path": "tests/vectors/mac-direct-encryption/cbc-mac-03.json",
+      "sha256": "ab65ab81f6babc7a30f31ff32e9be017d2cb01ea6459a4d868414a37e9460acb",
+      "bytes": 1312
+    },
+    {
+      "path": "tests/vectors/mac-direct-encryption/mac-pass-02.json",
+      "sha256": "432b80e3a6506d37b7f1b03025eb4378ef8daebf669ce2609f7da8744ea5ed53",
+      "bytes": 1390
+    },
+    {
+      "path": "tests/vectors/mac0/cbc-mac-enc-04.json",
+      "sha256": "d33a17d346400990b620230f44a5a694984fb583891621fed0e06c27643f189a",
+      "bytes": 957
+    },
+    {
+      "path": "tests/vectors/mac0/mac-pass-01.json",
+      "sha256": "533b22c3344087d0357ca12ac0f0e8481a0757601cadcabe9405ec67755c7d1c",
+      "bytes": 945
+    },
+    {
+      "path": "tests/vectors/mac0/mac-pass-02.json",
+      "sha256": "1353456cbf57a1643076c613a75ccb065e6ad95c0cbeddbc72ab62d2cead1dc7",
+      "bytes": 989
+    },
+    {
+      "path": "tests/vectors/mac0/mac-pass-03.json",
+      "sha256": "f19d7daa6080757f0f16ca534e6a49b6afc567738de93f4b375866ed83332943",
+      "bytes": 935
+    },
+    {
+      "path": "tests/vectors/multi-layer-recipients/rfc8152-appendix-b.json",
+      "sha256": "e48f64e30aecf8a7a0f41b31eef4f14512b9c511c335aa137a65ed0519a89e7d",
+      "bytes": 3451
+    },
+    {
+      "path": "tests/vectors/sign/ecdsa-01.json",
+      "sha256": "69b8192cf4b5135d6afba67385fe389e5536b0ea85b10773fdbc18f9a5cb0bd3",
+      "bytes": 1758
+    },
+    {
+      "path": "tests/vectors/sign/rsa-pss-01.json",
+      "sha256": "b6042588ba6a613113869863334c51f5f0e6ad1ef7cdcdb7f30318dfed7330e2",
+      "bytes": 4691
+    },
+    {
+      "path": "tests/vectors/sign/rsa-pss-02.json",
+      "sha256": "57035276ac24497dba5b3b28b74d91b1fa097b22a63f1807343aca1901a058a0",
+      "bytes": 4691
+    },
+    {
+      "path": "tests/vectors/sign/rsa-pss-03.json",
+      "sha256": "f7769ee4b7404301cffa13555f7566c93dd5e0b4bc0f64c3c5d9422cfbafcf94",
+      "bytes": 4691
+    },
+    {
+      "path": "tests/vectors/sign/sign-pass-02.json",
+      "sha256": "350a015a6f84a68054c087ca071859f5ae48930f3426353463784af5bb628e1f",
+      "bytes": 1769
+    },
+    {
+      "path": "tests/vectors/sign/sign-pass-03.json",
+      "sha256": "46836e6074d520f6d1b9cd411acd872b379acc4b9c627fbc68fe3ef973ae644c",
+      "bytes": 1725
+    },
+    {
+      "path": "tests/vectors/sign1/eddsa-sig-01.json",
+      "sha256": "6473f8b6466260d938f54878520d9f647cb8a2c32c649aa88c376bccd5e9aaf1",
+      "bytes": 1240
+    },
+    {
+      "path": "tests/vectors/sign1/sign-pass-02.json",
+      "sha256": "da7e86b3b8e533f0dac724be11333340d6581ed55b1053b46285b2eb2c8b0ecc",
+      "bytes": 1324
+    },
+    {
+      "path": "tests/vectors/sign1/sign-pass-03.json",
+      "sha256": "a65083c77a56ac6a5305109534dbd44630de8bbfb4194b292c4b0fa8a56b680b",
+      "bytes": 1275
+    },
+    {
+      "path": "tox.ini",
+      "sha256": "73c668a8f48d4c47366dd2364dfa58985c979dd71f3b38b5b1adf8d8839d4540",
+      "bytes": 146
+    }
+  ],
+  "no_postrun_product_changes": true
+}

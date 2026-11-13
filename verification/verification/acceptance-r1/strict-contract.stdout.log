@@ -1,0 +1,24 @@
+..........................FFF                                            [100%]
+================================== FAILURES ===================================
+________ test_critical_numeric_label_cannot_be_supplied_by_text_alias _________
+..\test_cose_label_values.py:9: in test_critical_numeric_label_cannot_be_supplied_by_text_alias
+    with pytest.raises(Exception):
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE Exception
+_________ test_text_critical_label_is_not_understood_by_numeric_alias _________
+..\test_cose_label_values.py:16: in test_text_critical_label_is_not_understood_by_numeric_alias
+    with pytest.raises(Exception):
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE Exception
+_______ test_noncritical_text_extension_is_distinct_from_integer_label ________
+..\test_cose_label_values.py:23: in test_noncritical_text_extension_is_distinct_from_integer_label
+    message=Sign1Message.decode_strict(wire);message.key=key
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pycose\messages\sign1message.py:229: in decode_strict
+    raise CoseMalformedMessage(f"Duplicate header label(s) {duplicates} in the {bucket} bucket")
+E   pycose.exceptions.CoseMalformedMessage: Duplicate header label(s) ['KID'] in the protected bucket
+=========================== short test summary info ===========================
+FAILED ..\test_cose_label_values.py::test_critical_numeric_label_cannot_be_supplied_by_text_alias
+FAILED ..\test_cose_label_values.py::test_text_critical_label_is_not_understood_by_numeric_alias
+FAILED ..\test_cose_label_values.py::test_noncritical_text_extension_is_distinct_from_integer_label
+3 failed, 26 passed in 0.74s

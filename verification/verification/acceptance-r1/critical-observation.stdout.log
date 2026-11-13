@@ -1,0 +1,2 @@
+{"case": "missing numeric critical label", "strict_decode": "REJECTED", "error": "Object of type bytes is not JSON serializable"}
+{"case": "text critical label not declared understood", "strict_decode": "REJECTED", "error": "Object of type bytes is not JSON serializable"}

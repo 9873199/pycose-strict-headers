@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-13T16:07:58+08:00",
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-o",
+    "addopts=",
+    "-p",
+    "no:cacheprovider",
+    "--tb=short",
+    "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1/test_cose_contract.py",
+    "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1/test_cose_label_values.py",
+    "--basetemp",
+    "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1/tmp-strict"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\replay-source",
+  "exit_code": 1,
+  "stdout_log": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\strict-contract.stdout.log",
+  "stderr_log": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\strict-contract.stderr.log"
+}

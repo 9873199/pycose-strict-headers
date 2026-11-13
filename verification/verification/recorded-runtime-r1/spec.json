@@ -1,0 +1,79 @@
+{
+  "title": "COSE message validation",
+  "directory": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\recording\\r2",
+  "cwd": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\replay-source",
+  "capture": "wgc",
+  "environment": {
+    "PYTHONPATH": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\replay-source;D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "commands": [
+    {
+      "id": "message-demo",
+      "label": "Original header bytes and signed payloads",
+      "display": "python cose-demo.py",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+        "-B",
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\cose-demo.py"
+      ],
+      "start_at_seconds": 0
+    },
+    {
+      "id": "critical-check",
+      "label": "Critical label handling",
+      "display": "python critical-observation.py",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+        "-B",
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation-r2.py"
+      ],
+      "start_at_seconds": 19
+    },
+    {
+      "id": "critical-tests",
+      "label": "Header label contract checks",
+      "display": "python -m pytest test_cose_label_values.py -q",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "--no-header",
+        "-o",
+        "addopts=",
+        "-p",
+        "no:cacheprovider",
+        "--tb=line",
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\test_cose_label_values.py",
+        "--basetemp",
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\recording\\r2\\tmp-critical"
+      ],
+      "start_at_seconds": 37
+    },
+    {
+      "id": "package-tests",
+      "label": "Package strict decoding checks",
+      "display": "python -m pytest tests/test_sign1_strict.py -q",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\tasks\\cose\\env\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "--no-header",
+        "-o",
+        "addopts=",
+        "-p",
+        "no:cacheprovider",
+        "--tb=short",
+        "tests/test_sign1_strict.py",
+        "--basetemp",
+        "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\recording\\r2\\tmp-package"
+      ],
+      "start_at_seconds": 57
+    }
+  ],
+  "console_start_delay_seconds": 10
+}

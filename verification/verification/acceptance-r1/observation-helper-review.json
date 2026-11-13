@@ -1,0 +1,5 @@
+{
+  "time": "2026-11-13T16:10:33+08:00",
+  "reason": "Initial observation script caught its own json.dumps(bytes) serialization error and mislabeled two accepted decodes as REJECTED. That output is helper-invalid and excluded. The pytest assertions already establish acceptance; revision 2 separates decoder exceptions from formatting and prints repr of the CBOR header. Original helper/output retained.",
+  "model_penalty_for_helper_error": false
+}

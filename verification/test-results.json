@@ -1,0 +1,16 @@
+{
+  "independent_contract": {
+    "passed": 26,
+    "failed": 3,
+    "one_shared_root_cause": true
+  },
+  "package_suite": {
+    "passed": 1659,
+    "skipped": 3
+  },
+  "model_feature_recording": {
+    "passed": 25
+  },
+  "helper_observation_r1": "INVALID_JSON_FORMATTING_NOT_PRODUCT_FAILURE",
+  "counts_not_summed_due_to_overlap": true
+}

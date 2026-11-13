@@ -1,0 +1,44 @@
+{
+  "process": [
+    {
+      "native_lines": [
+        75,
+        81,
+        88,
+        101,
+        102,
+        109,
+        110
+      ],
+      "fact": "Added alias-normalizing strict parser, wrote tests with integer critical labels, fixed a test-case naming assertion, then package suite passed; exact text/integer label separation was not tested."
+    }
+  ],
+  "product": [
+    {
+      "file": "pycose/messages/sign1message.py",
+      "function": "_label_identity",
+      "lines": [
+        115,
+        123,
+        234,
+        250,
+        256,
+        262
+      ],
+      "fact": "Registered convenience aliases are used as CBOR identity for duplicates, presence and understanding."
+    }
+  ],
+  "requirements": {
+    "raw_bytes_and_payloads": "test_cose_contract.py",
+    "critical_exact_label_identity": "test_cose_label_values.py",
+    "ordinary_decode_compatibility": "tests/test_sign1_strict.py::test_lenient_decode_still_accepts_duplicate_labels"
+  },
+  "helper_error_excluded": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\observation-helper-review.json",
+  "rejected_vs_accepted_actual_observation": "D:\\hc\\userFeedback\\cache\\execution-security-new11-20261112\\evaluation\\uf-20261112-new15-cose-retry-2\\verification\\acceptance-r1\\critical-observation-r2.stdout.log",
+  "diversity": "D:\\hc\\userFeedback\\cache\\prompts-security15-20261112-r1\\continuation-r1\\diversity-rechecked.json",
+  "time": "2026-11-13T16:18:20+08:00",
+  "uid": 1743,
+  "frozen_commit": "b8ecb2566434e76b4d47d8184e58abe5ce532414",
+  "native_trace_sha256": "49aa191dfe15769aa5e090e60d66941532531d02d49c41fca5e1b87df7a325e6",
+  "no_model_source_changes_after_freeze": true
+}

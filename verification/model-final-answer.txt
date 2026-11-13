@@ -1,0 +1,23 @@
+Everything checks out. Here's a summary of the work:
+
+## 实现
+
+**`pycose/messages/sign1message.py`** — 新增独立严格入口 `Sign1Message.decode_strict(received, understood_crit=None, allow_unknown_attributes=True)`，普通 `decode` 完全未动：
+
+- **`_StrictCborReader`**：流式 CBOR 读取器。不像 `cbor2.loads` 会把 map 折叠成 dict（重复 key 被吞）且静默忽略尾部字节，它按 pair 读取 map 并精确跟踪消费位置。
+- **结构校验**：接受 tag 18 或未加 tag 的四项数组；拒绝错误 tag、错误项数（含不定长数组里多于 4 项）、错误类型（protected 非 bstr、uhdr 非 map、payload 非 bstr/null、signature 非 bstr）以及**尾部多余 CBOR 数据**和 protected bstr 内部的多余字节。
+- **重复 label 检测按 CBOR 值**：每个 label 解码后做规范化重编码比较，所以 `0x01` 与非最短的 `0x18 0x01` 也算重复；已注册属性按 identifier 归一（`1` 与 `"ALG"` 视为同一 label）。protected、unprotected 各自查重，跨 bucket 冲突也拒绝。
+- **契约校验**：Algorithm 必须在 protected；Critical 只能出现在 protected、值必须是合法 label 数组、不得重复、列出的 label 必须实际存在于 protected、且全部属于调用者传入的 `understood_crit`（否则抛 `CoseException`）。未知非 critical 扩展头照常保留。
+- **原字节保留**：用 `phdr_encoded=` 构造消息，`phdr_encoded` 属性直接返回收到的原始字节，签名结构 (`_create_sig_structure`) 用的就是这些字节——绝不重排 key 或缩短整数编码。
+- **失败无半成品**：所有校验在构造对象之前完成，失败只抛异常，不返回可继续验签的消息。
+
+## 测试（`tests/test_sign1_strict.py`，25 个用例）
+
+所有恶意样例均手工拼字节（`_sign1_bytes`/`bstr` 拼接），重复 map 从不经过 Python dict：
+
+- **原字节参与验签**：用真实 Ed25519 密钥对非确定性 protected（key 乱序 + label 1000 用 4 字节非最短整数）签名，严格解码后验签通过且 `phdr_encoded` 逐字节等于原字节；同一签名换成规范化重编码的 protected 后验签**失败**，证明签的就是原字节。
+- **反例**：protected/unprotected 内重复 label、不同编码同值的重复 label、跨 bucket 冲突、尾随 CBOR、错误项数/类型/tag、缺 Algorithm、未知 critical、critical 出现在 unprotected、critical 列出不存在/重复的 label、畸形 critical 值。
+- **正常用法**：空载荷、分离载荷（`detached_payload`）、`external_aad`、未加 tag、未知非 critical 扩展头保留、`understood_crit` 声明后 critical 扩展可用。
+- **兼容性**：普通 `Sign1Message.decode` 对重复 label 消息仍静默容忍（行为未收紧）。
+
+全量测试：**1659 passed, 3 skipped**（skip 为原有），无回归。
